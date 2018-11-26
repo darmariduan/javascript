@@ -8,10 +8,11 @@ function panggilFilterParameters(value) {
    {negara: 'Amerika Serikat', benua: 'Amerika'},
  ];
 
- var benuaasia = arr.filter(function(item) {
-     return item.benua === 'Asia';
+ var benuaEropa = arr.filter(function(item) {
+     return item.benua === 'Eropa';
+
  });
 
- console.log(benuaasia);
+ console.log(benuaEropa);
 }
 panggilFilterParameters()
